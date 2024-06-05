@@ -8,81 +8,65 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
+          status: 'Linguagem de marcação'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Cascading Style'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          name: 'Javascript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          status: 'Linguagem de programação'
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          name: 'Typescript',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg',
+          status: 'Linguagem de programação'
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          name: 'ReactJS',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+          status: 'Biblioteca'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
+          name: 'NextJS',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg',
+          status: 'Framework'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
+          name: 'NodeJS',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
+          status: 'V8 Engine'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
-          status: 'Beginner'
+          name: 'MongoDB',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
+          status: 'Banco de dados'
+          
         },
         {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          name: 'Express',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
+          status: 'Framework'
         },
-        {
-          id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
-        },
-        {
-          id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
-        }
+        
       ],
       tools: [
         {
           id: 1,
           name: 'Git',
           imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
+          status: 'Controle de versão'
         },
         {
           id: 2,
@@ -94,14 +78,20 @@ export default {
           id: 3,
           name: 'NPM',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
+          status: 'Gerenciador de pacotes'
         },
         {
           id: 4,
-          name: 'MySQL',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
+          name: 'VsCode',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg',
+          status: 'IDE'
         },
+        {
+          id: 5,
+          name: 'Postman',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-plain.svg',
+          status: 'API Client'
+        }
       ]
     };
   }
@@ -114,7 +104,7 @@ export default {
 
       <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          About Me &nbsp;
+          Sobre mim &nbsp;
           <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
         </div>
@@ -123,23 +113,15 @@ export default {
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
-          <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+          <img alt="avatar" width="300" height="300" src="../images/ANDERSON_08.jpg" class="rounded-image">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Meu nome é Anderson Nunes e, como desenvolvedor web full-stack, tenho paixão por transformar ideias em soluções. Meu objetivo é criar sites e aplicativos que atendam às necessidades e interajam de forma eficiente. Minha carreira teve início em 2022, quando comecei a estudar desenvolvimento web. Após todo esse tempo, mergulhei em trabalhos freelancers e PJ para aprimorar minhas habilidades front-end e back-end.
+
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            &nbsp; &nbsp; &nbsp;
           </p>
         </div>
 
@@ -154,7 +136,7 @@ export default {
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
           <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
-          &nbsp; Skills
+          &nbsp; Habilidades
         </div>
       </header>
       <section>
@@ -162,11 +144,12 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tecnologias</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }"
+                @click="activeTab = 2">Ferramentas</button>
             </li>
           </ul>
         </div>
@@ -181,7 +164,8 @@ export default {
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
@@ -202,7 +186,8 @@ export default {
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">

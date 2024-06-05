@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="text-left text-black mt-8" v-html="content">
-                    
+
                 </div>
             </div>
         </div>
