@@ -11,7 +11,7 @@
         </button>
         <div class="flex md:order-2 fadein-bot">
           
-          <a href="https://www.linkedin.com/in/devandersonnunes/">
+          <a href="https://www.linkedin.com/in/devandersonnunes/" target="_blank">
             <img 
               class="w-9 rounded-full mr-2" 
               src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin"
