@@ -78,7 +78,7 @@ export default {
           id: 3,
           name: 'NPM',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'G.git de pacotes'
+          status: 'Ger. de pacotes'
         },
         {
           id: 4,
