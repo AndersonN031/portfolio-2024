@@ -8,7 +8,7 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Linguagem de marcação'
+          status: 'Marcação'
         },
         {
           id: 2,
@@ -20,13 +20,13 @@ export default {
           id: 3,
           name: 'Javascript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Linguagem de programação'
+          status: 'Programação'
         },
         {
           id: 4,
           name: 'Typescript',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg',
-          status: 'Linguagem de programação'
+          status: 'Programação'
         },
         {
           id: 5,

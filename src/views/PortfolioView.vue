@@ -8,46 +8,37 @@ export default {
           id: 1,
           name: 'Website Pessoal',
           imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
+          status: 'Site pessoal, criado para mostrar meu perfil, habilidades e buscando exibir minhas experiências profissionais. Também um bom lugar para testar novas tecnologias.',
           tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
-          demo: 'https://bagasrakha.netlify.app/'
+          github: 'https://github.com/AndersonN031/portfolio-2024',
+          demo: 'https://devanderson.vercel.app/'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          name: 'Controle de estoque',
+          imageUrl: 'esmercado',
+          status: 'Projeto desenvolvido para um comércio local com intuíto de guardar informações na web e ter um controle mais fácil e rápido de seus variáveis produtos.',
+          tech:'NextJS, NodeJS e MongoDB ',
+          github: 'https://github.com/AndersonN031/nexjs-mongo-deploy',
+          demo: 'null'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
+          name: 'CF Obras',
+          imageUrl: 'cfobras',
+          status: 'CF Obras é um projeto voltado à venda de insumos de grande porte ou em grandes quantidades no ramo da construção civil, atendendo às requisições dos clientes.',
+          tech: 'VueJS 3, Typescript, NodeJS e MongoDB',
           github: 'null',
           demo: 'null'
         },
         {
           id: 4,
-          name: 'Bumdesma',
-          imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          name: 'Portfolio Design gráfico',
+          imageUrl: 'design',
+          status: 'Freelancer de um portfólio para um designer gráfico/motion para exibir na web sua experiência e projetos.',
+          tech: 'ReactJS/NextJS, Css & Bootstrap',
           github: 'null',
-          demo: 'null'
-        },
-        {
-          id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
-          github: 'null',
-          demo: 'null'
+          demo: 'https://irton-design.vercel.app/'
         }
       ]
     };
@@ -63,7 +54,7 @@ export default {
           <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
           <h4>Experiência</h4>
           <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-            Projetos que trabalhei até agora</h4>
+            Projetos que atuei até o momento</h4>
         </div>
       </header>
       <section>
@@ -104,7 +95,9 @@ export default {
                           <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                           <polyline points="15 3 21 3 21 9"></polyline>
                         <line x1="10" y1="14" x2="21" y2="3"></line>
-                      </svg></a></div>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -134,7 +127,6 @@ svg:hover{
   }
 }
 
-/* Menggunakan animasi pada elemen yang diinginkan */
 .fade-zoom-in {
   animation: fadeZoomIn 1s ease-in-out;
 }
