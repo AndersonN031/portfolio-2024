@@ -6,13 +6,13 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView,
-    meta: { title: 'Home' }
+    meta: { title: 'Início' }
   },
   {
     path: '/about',
-    name: 'about',
+    name: 'Sobre',
     component: () => import('../views/AboutView.vue'),
-    meta: { title: 'About' }
+    meta: { title: 'Sobre' }
   },
   {
     path: '/portfolio',
@@ -28,7 +28,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title + ' - bagasRakha();'; 
+  document.title = to.meta.title + ' - devAnderson;';
   next();
 });
 
