@@ -18,48 +18,74 @@ export default {
         },
         {
           id: 3,
+          name: 'Bootstrap',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
+          status: 'Framework'
+        },
+        {
+          id: 4,
+          name: 'Sass',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg',
+          status: 'Extensão do css'
+        },
+        {
+          id: 5,
           name: 'Javascript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
           status: 'Programação'
         },
         {
-          id: 4,
+          id: 6,
           name: 'Typescript',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg',
           status: 'Programação'
         },
         {
-          id: 5,
+          id: 7,
           name: 'ReactJS',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
           status: 'Biblioteca'
         },
         {
-          id: 6,
+          id: 8,
           name: 'NextJS',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg',
           status: 'Framework'
         },
         {
-          id: 7,
+          id: 9,
           name: 'NodeJS',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
           status: 'V8 Engine'
         },
         {
-          id: 8,
+          id: 10,
           name: 'MongoDB',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
           status: 'Banco de dados'
-          
+
         },
         {
-          id: 9,
+          id: 11,
           name: 'Express',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
           status: 'Framework'
         },
-        
+        {
+          id: 12,
+          name: 'PostgreSQL',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
+          status: 'Banco de dados'
+        },
+
+        {
+          id: 13,
+          name: 'Wordpress',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg',
+          status: 'Gerenciador de conteúdo'
+        },
+
+
       ],
       tools: [
         {
@@ -117,7 +143,11 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Meu nome é Anderson Nunes e, como desenvolvedor web full-stack, tenho paixão por transformar ideias em soluções. Meu objetivo é criar sites e aplicativos que atendam às necessidades e interajam de forma eficiente. Minha carreira teve início em 2022, quando comecei a estudar desenvolvimento web. Após todo esse tempo, mergulhei em trabalhos freelancers e PJ para aprimorar minhas habilidades front-end e back-end.
+            &nbsp; &nbsp; &nbsp; Meu nome é Anderson Nunes e, como desenvolvedor web full-stack, tenho paixão por
+            transformar ideias em soluções. Meu objetivo é criar sites e aplicativos que atendam às necessidades e
+            interajam de forma eficiente. Minha carreira teve início em 2022, quando comecei a estudar desenvolvimento
+            web. Após todo esse tempo, mergulhei em trabalhos freelancers e PJ para aprimorar minhas habilidades
+            front-end e back-end.
 
           </p>
           <p class="mb-3 fadein-left fadeins-2">
@@ -144,7 +174,8 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tecnologias</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }"
+                @click="activeTab = 1">Tecnologias</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
