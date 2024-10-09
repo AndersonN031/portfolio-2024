@@ -82,7 +82,7 @@ export default {
           id: 13,
           name: 'Wordpress',
           imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg',
-          status: 'Gerenciador de conteúdo'
+          status: 'CMS'
         },
 
 
