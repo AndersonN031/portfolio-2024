@@ -39,6 +39,15 @@ export default {
           tech: 'ReactJS/NextJS, Css & Bootstrap',
           github: 'null',
           demo: 'https://irton-design.vercel.app/'
+        },
+        {
+          id: 5,
+          name: 'Poliglobalizando',
+          imageUrl: 'poliglobalizando',
+          status: 'Desenvolvedor Full-Stack em um curso de inglês gratuito voltado para apoiar pessoas de baixa renda no aprendizado da língua inglesa.',
+          tech: 'NextJS, Express & SQL',
+          github: 'null',
+          demo: 'null'
         }
       ]
     };
