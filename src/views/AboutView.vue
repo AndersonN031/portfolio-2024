@@ -16,6 +16,7 @@ export default {
       ],
       backend: [
         { id: 1, name: 'NodeJS', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg', status: 'V8 Engine' },
+        { id: 1, name: 'NestJS', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg', status: 'Framework' },
         { id: 2, name: 'Express', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg', status: 'Framework' },
         { id: 3, name: 'MongoDB', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg', status: 'Banco de dados' },
         { id: 4, name: 'PostgreSQL', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg', status: 'Banco de dados' },
@@ -27,6 +28,7 @@ export default {
         { id: 2, name: 'GitHub', imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png', status: 'Git Hosting' },
         { id: 3, name: 'NPM', imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png', status: 'Ger. de pacotes' },
         { id: 4, name: 'VSCode', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg', status: 'IDE' },
+        { id: 4, name: 'Docker', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg', status: 'Ferramenta' },
         { id: 5, name: 'Postman', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-plain.svg', status: 'API Client' }
       ]
     };
@@ -100,7 +102,7 @@ export default {
         </div>
 
         <div v-show="activeTab === 1">
-          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 xl:grid-cols-4">
+          <div class="grid grid-cols-2 gap-5 pb-32 md:grid-cols-3 xl:grid-cols-4">
             <div v-for="item in frontend" :key="item.id">
               <div class="item-tech flex items-center gap-2 border border-amber-200 p-2 hover:bg-amber-200 hover:bg-opacity-10">
                 <div class="h-12 w-12 flex items-center justify-center p-0 lg:h-16 lg:w-16">
