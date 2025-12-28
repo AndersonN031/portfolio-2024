@@ -47,26 +47,21 @@ export default {
         },
         {
           id: 5,
-          name: 'Poliglobalizando',
-          imageUrl: 'poliglobalizando',
-          status: 'Desenvolvedor Full-Stack em um curso de inglês gratuito voltado para apoiar pessoas de baixa renda no aprendizado da língua inglesa.',
-          description: 'Atuei como desenvolvedor Full-Stack em um curso de inglês gratuito voltado para apoiar pessoas de baixa renda no aprendizado da língua inglesa. Desenvolvi interfaces dinâmicas utilizando Next.js, garantindo uma experiência acessível e intuitiva que facilitou o engajamento dos alunos, mesmo aqueles com pouca familiaridade com tecnologia. Criei APIs para o gerenciamento de dados com Node.js e Express, além de otimizar bancos de dados relacionais, o que assegurou um acompanhamento eficiente e escalável do progresso dos estudantes. Implementei funcionalidades para cadastro e monitoramento, oferecendo uma experiência personalizada que incentivou a participação ativa dos alunos.',
-          tech: 'NextJS, Express & SQL',
+          name: 'Ren Lab',
+          imageUrl: 'renlab',
+          status: 'Website de vendas de cursos',
+          description: 'Site de curso Ren Lab. Website para venda de cursos utilizando mercado pago para meios de pagamento',
           github: 'null',
-          demo: 'null'
+          demo: 'https://renlabeducacional.com.br/'
         },
         {
           id: 6,
-          name: 'Gestão de Leads',
-          imageUrl: 'leads',
-          status: 'Permite adicionar, atualizar, excluir e buscar Leads, com suporte a grupos e campanhas.',
-          description: `Projeto de Gerenciamento de Leads: Projeto pessoal 
-          desenvolvido exclusivamente para o backend, utilizando TypeScript, Node.js, Express, Prisma, Zod e PostgreSQL. Permite adicionar, atualizar, excluir e buscar Leads, com suporte a grupos e campanhas. Grupos e campanhas podem ser criados, atualizados e removidos, e cada Lead pode ser associado a uma ou mais campanhas e grupos.
-          
-          O sistema conta com funcionalidades como filtragem avançada e paginação, além de possibilitar a gestão eficiente das associações entre Leads, grupos e campanhas. Com regras de negócio bem definidas, baixo acoplamento e alta coesão, o projeto prioriza escalabilidade e manutenção. O uso de tecnologias modernas, como Prisma para ORM e Zod para validação, garante um backend robusto e confiável, pronto para integração com futuros frontends.`,
-          tech: "NodeJS, PostgreSQL, Zod & Prisma",
-          github: 'https://github.com/AndersonN031/gest-o-de-leads',
-          demo: 'null'
+          name: 'DLS Academy',
+          imageUrl: 'dls',
+          status: 'Website de vendas de cursos',
+          description: "Website para uma academia que visa vender cursos para pessoas que querem se profissionalizar em áreas específicas",
+          github: 'null',
+          demo: 'https://dlsacademy.com.br/'
         }
 
         
