@@ -20,7 +20,11 @@ export default {
         { id: 2, name: 'Express', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg', status: 'Framework' },
         { id: 3, name: 'MongoDB', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg', status: 'Banco de dados' },
         { id: 4, name: 'PostgreSQL', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg', status: 'Banco de dados' },
-        { id: 4, name: 'Prisma', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg', status: 'ORM' },
+        { id: 5, name: 'Prisma', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg', status: 'ORM' },
+        { id: 6, name: 'Redis', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg', status: 'Storage Cache' },
+        { id: 7, name: 'Socket.IO', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg', status: 'Lib Real Time' },
+        { id: 8, name: 'Twilio', imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twilio/twilio-original.svg', status: 'Lib Real Time' },
+
         
       ],
       tools: [
