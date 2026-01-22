@@ -60,7 +60,7 @@ export default {
       </div>
       <div class="md:w-7/12">
         <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-          &nbsp; &nbsp; &nbsp; Olá, sou Anderson Nunes e tenho 21 anos. Com experiência em desenvolvimento para Web, tenho sólidos conhecimentos na aplicação de técnicas avançadas
+          &nbsp; &nbsp; &nbsp; Olá, sou Anderson Nunes e tenho 22 anos. Com experiência em desenvolvimento para Web, tenho sólidos conhecimentos na aplicação de técnicas avançadas
           de otimização. Comprometido com a criação de soluções eficientes e responsivas, integro constantemente as
           melhores práticas para garantir desempenho e usabilidade excepcionais em todos os projetos. Tenho experiência
           com as principais tecnologias do mercado, incluindo React, Node e SQL
