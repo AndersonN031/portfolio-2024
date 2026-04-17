@@ -8,64 +8,126 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Website Pessoal',
-          imageUrl: 'portfolio_v2',
-          status: 'Site pessoal, criado para mostrar meu perfil, habilidades e buscando exibir minhas experiências profissionais. Também um bom lugar para testar novas tecnologias.',
-          description: 'Desenvolvi este site pessoal como um portfólio digital utilizando VueJS 3 e Tailwind CSS. Implementei um design responsivo, animações suaves e uma estrutura de components reutilizáveis. O projeto foi deployado na Vercel e serve como showcase das minhas habilidades frontend.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/AndersonN031/portfolio-2024',
-          demo: 'https://devanderson.vercel.app/'
+          name: "Website Pessoal",
+          imageUrl: "portfolio_v2",
+          status:
+            "Site pessoal para mostrar perfil, habilidades e experiências profissionais.",
+          description:
+            "Portfólio digital desenvolvido com VueJS 3 e Tailwind CSS. Implementei design responsivo, animações suaves e estrutura de componentes reutilizáveis. Deployado na Vercel como showcase das minhas habilidades frontend.",
+          bullets: [
+            "Design responsivo com Tailwind CSS",
+            "Animações de entrada com CSS keyframes",
+            "Roteamento com Vue Router",
+            "Deploy contínuo na Vercel",
+          ],
+          tech: "VueJS 3, Tailwind",
+          techList: ["VueJS 3", "Tailwind CSS", "Vue Router", "Vercel"],
+          github: "https://github.com/AndersonN031/portfolio-2024",
+          demo: "https://devanderson.vercel.app/",
         },
         {
           id: 2,
-          name: 'Controle de estoque',
-          imageUrl: 'esmercado',
-          status: 'Projeto desenvolvido para um comércio local com intuíto de guardar informações na web e ter um controle mais fácil e rápido de seus variáveis produtos.',
-          description: 'Criei um sistema de controle de estoque full-stack usando NextJS para o frontend, NodeJS para o backend e MongoDB como banco de dados. Implementei funcionalidades de CRUD para produtos, autenticação de usuário e um dashboard para visualização de estoque.',
-          tech: 'NextJS, NodeJS e MongoDB ',
-          github: 'https://github.com/AndersonN031/nexjs-mongo-deploy',
-          demo: 'null'
+          name: "Like Delivery",
+          imageUrl: "delivery",
+          status:
+            "atuando no core de uma plataforma de delivery com sistema de carrinho em tempo real via WebSocket.",
+          description:
+            "atuando no core de uma plataforma de delivery com sistema de carrinho em tempo real via WebSocket e Redis, autenticação JWT + Twilio e arquitetura hexagonal com NestJS e PostgreSQL.",
+          bullets: [
+            "Foco principal em Back-End, desenvolvendo APIs, regras de negócio e integrações",
+            "Core de plataforma de delivery: pedidos, produtos, categorias e empresas com Arquitetura Hexagonal",
+            "Sistema de carrinho em tempo real com WebSocket (Socket.IO) e Redis para cache e sincronização",
+            "Autenticação completa com JWT e Twilio (validação via SMS)",
+            "Frontend com Next.js (SSR), Zustand, Zod, Shadcn UI e Radix UI",
+          ],
+          tech: "NextJS, NodeJS e PostgreSQL",
+          techList: [
+            "NestJS",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "Docker",
+            "Redis",
+            "WebSocket",
+            "Next.js",
+          ],
+          github: "null",
+          demo: "null",
         },
         {
           id: 3,
-          name: 'CF Obras',
-          imageUrl: 'cfobras',
-          status: 'CF Obras é um projeto voltado à venda de insumos de grande porte ou em grandes quantidades no ramo da construção civil, atendendo às requisições dos clientes.',
-          description: 'Atuei como PJ em um projeto de obras, focando no Back-End para resolver bugs em requisições de insumos dentro de uma arquitetura MVC, garantindo maior confiabilidade e precisão no fluxo de dados do sistema. Implementei essas melhorias no Front-End utilizando React.js para construir telas intuitivas, facilitando a interação dos usuários com o processo de gestão de insumos. Durante a entrega, utilizei tecnologias como React.js, TypeScript, Nest.js e MongoDB, aprimorando a robustez e a escalabilidade da aplicação. Minhas contribuições reduziram falhas operacionais, otimizando o gerenciamento de recursos no projeto de obras.',
-          tech: 'VueJS 3, Typescript, NestJS e MongoDB',
-          github: 'null',
-          demo: 'null'
+          name: "CF Obras",
+          imageUrl: "cfobras",
+          status:
+            "Plataforma de venda de insumos para construção civil em grandes quantidades.",
+          description:
+            "Atuei como PJ no projeto, focando em correções de bugs críticos no backend e desenvolvimento de interfaces para gestão de insumos da construção civil.",
+          bullets: [
+            "Correção de bugs em fluxos de requisição com arquitetura MVC",
+            "Interfaces de gestão de insumos com React.js e TypeScript",
+            "Integração backend com NestJS e MongoDB",
+            "Redução de falhas operacionais no fluxo de dados",
+          ],
+          tech: "VueJS 3, Typescript, NestJS e MongoDB",
+          techList: ["React.js", "TypeScript", "NestJS", "MongoDB"],
+          github: "null",
+          demo: "null",
         },
         {
           id: 4,
-          name: 'Portfolio Design gráfico',
-          imageUrl: 'design',
-          status: 'Freelancer de um portfólio para um designer gráfico/motion para exibir na web sua experiência e projetos.',
-          tech: 'ReactJS/NextJS, Css & Bootstrap',
-          github: 'null',
-          demo: 'https://irton-design.vercel.app/'
+          name: "Portfólio Design Gráfico",
+          imageUrl: "design",
+          status:
+            "Portfólio freelancer para designer gráfico/motion exibir projetos na web.",
+          description:
+            "Desenvolvimento freelancer de portfólio web para designer gráfico e motion designer, com foco em apresentação visual dos projetos e experiência profissional do cliente.",
+          bullets: [
+            "Layout moderno e responsivo com Next.js",
+            "Galeria de projetos de design",
+            "Deploy na Vercel",
+          ],
+          tech: "ReactJS/NextJS, Css & Bootstrap",
+          techList: ["React.js", "Next.js", "CSS", "Bootstrap"],
+          github: "null",
+          demo: "https://irton-design.vercel.app/",
         },
         {
           id: 5,
-          name: 'Ren Lab',
-          imageUrl: 'renlab',
-          status: 'Website de vendas de cursos',
-          description: 'Site de curso Ren Lab. Website para venda de cursos utilizando mercado pago para meios de pagamento',
-          github: 'null',
-          demo: 'https://renlabeducacional.com.br/'
+          name: "Ren Lab",
+          imageUrl: "renlab",
+          status:
+            "Plataforma de vendas de cursos com integração de pagamentos.",
+          description:
+            "Website para venda de cursos online da Ren Lab, com integração ao Mercado Pago para processamento de pagamentos e gestão de acesso aos conteúdos.",
+          bullets: [
+            "Integração com Mercado Pago para pagamentos",
+            "Landing page de conversão de cursos",
+            "Interface moderna e responsiva",
+          ],
+          tech: null,
+          techList: [],
+          github: "null",
+          demo: "https://renlabeducacional.com.br/",
         },
         {
           id: 6,
-          name: 'DLS Academy',
-          imageUrl: 'dls',
-          status: 'Website de vendas de cursos',
-          description: "Website para uma academia que visa vender cursos para pessoas que querem se profissionalizar em áreas específicas",
-          github: 'null',
-          demo: 'https://dlsacademy.com.br/'
-        }
-
-        
-      ]
+          name: "DLS Academy",
+          imageUrl: "dls",
+          status:
+            "Plataforma de cursos profissionalizantes para capacitação em áreas específicas.",
+          description:
+            "Website para academia focada em venda de cursos de profissionalização. Interface de alta conversão para apresentação e venda dos cursos disponíveis.",
+          bullets: [
+            "Landing page orientada à conversão",
+            "Apresentação de cursos e instrutores",
+            "Interface responsiva e moderna",
+          ],
+          tech: null,
+          techList: [],
+          github: "null",
+          demo: "https://dlsacademy.com.br/",
+        },
+      ],
     };
   },
   methods: {
@@ -76,55 +138,131 @@ export default {
     closeModal() {
       this.showModal = false;
       this.selectedItem = null;
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <template>
   <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
     <article data-page="about">
       <header>
-        <div class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
+        <div
+          class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col"
+        >
           <h4>Experiência</h4>
-          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-            Projetos que atuei até o momento</h4>
-          </div>
-        </header>
-        <section>
-        <h4 class="text-sm font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-300 mb-4">Clique no card para ter mais informações!</h4>
+          <h4
+            class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300"
+          >
+            Projetos que atuei até o momento
+          </h4>
+        </div>
+      </header>
+
+      <section>
+        <h4
+          class="text-sm font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-300 mb-4"
+        >
+          Clique no card para ter mais informações!
+        </h4>
         <div>
-          <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
+          <div
+            class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in"
+          >
             <div v-for="item in items" :key="item.id">
-              <div 
+              <div
                 @click="openModal(item)"
-                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 cursor-pointer">
-                <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
-                  <img alt="HTML" loading="lazy" decoding="async" data-nimg="1"
-                    class="drop-shadow-xl rounded rounded-xl" :src="'/img/portfolio-' + item.imageUrl + '.png'">
+                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 cursor-pointer h-full"
+              >
+                <div
+                  class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in"
+                >
+                  <img
+                    alt="projeto"
+                    loading="lazy"
+                    decoding="async"
+                    class="drop-shadow-xl rounded rounded-xl"
+                    :src="'/img/portfolio-' + item.imageUrl + '.png'"
+                  />
                 </div>
-                <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
-                  <div class="title-text font-medium text-secondary">{{ item.name }}</div>
-                  <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
-                    {{ item.status }}</div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-amber-200">
-                    {{ item.tech }}
+                <div
+                  class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg"
+                >
+                  <div class="title-text font-medium text-secondary">
+                    {{ item.name }}
                   </div>
-                  <div class="w-full flex justify-end">
-                    <div class="flex cursor-pointer items-end gap-2 text-primary">
-                      <a v-if="item.github !== 'null'" :href="item.github" target="_blank" rel="noreferrer"
-                        title="View github repository" class="transition-all hover:text-accent">
-                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                          stroke-linecap="round" stroke-linejoin="round" height="16" width="16"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                        </svg></a>
-                      <a v-if="item.demo !== 'null'" :href="item.demo" target="_blank" rel="noreferrer"
-                        title="View finished project" class="transition-all hover:text-accent">
-                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                          stroke-linecap="round" stroke-linejoin="round" height="18" width="18"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <div
+                    class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm"
+                  >
+                    {{ item.status }}
+                  </div>
+
+                  <!-- Tech badges -->
+                  <div
+                    v-if="item.tech"
+                    class="w-full mt-2 flex flex-wrap gap-1"
+                  >
+                    <span
+                      v-for="t in item.techList"
+                      :key="t"
+                      class="px-2 py-0.5 text-[10px] rounded-full bg-amber-200 bg-opacity-10 text-amber-200 border border-amber-200 border-opacity-20"
+                    >
+                      {{ t }}
+                    </span>
+                  </div>
+
+                  <div class="w-full flex justify-end mt-2">
+                    <div
+                      class="flex cursor-pointer items-end gap-2 text-primary"
+                    >
+                      <a
+                        v-if="item.github !== 'null'"
+                        :href="item.github"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Ver repositório no GitHub"
+                        @click.stop
+                        class="transition-all hover:text-accent"
+                      >
+                        <svg
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          height="16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                      </a>
+                      <a
+                        v-if="item.demo !== 'null'"
+                        :href="item.demo"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Ver projeto ao vivo"
+                        @click.stop
+                        class="transition-all hover:text-accent"
+                      >
+                        <svg
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          height="18"
+                          width="18"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
                           <polyline points="15 3 21 3 21 9"></polyline>
                           <line x1="10" y1="14" x2="21" y2="3"></line>
                         </svg>
@@ -139,24 +277,140 @@ export default {
       </section>
     </article>
 
-    <!-- Modal -->
-    <div v-if="showModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div class="bg-[#1e1e1f] rounded-xl p-6 max-w-lg w-full mx-4 border border-[#383838]">
-        <div class="flex justify-between items-center mb-4">
-          <h3 class="text-xl font-bold text-amber-50">{{ selectedItem?.name }}</h3>
-          <button @click="closeModal" class="text-amber-200 hover:text-amber-400">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    <!-- Modal melhorado -->
+    <div
+      v-if="showModal"
+      class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 px-4"
+      @click.self="closeModal"
+    >
+      <div
+        class="bg-[#1e1e1f] rounded-xl max-w-lg w-full border border-[#383838] modal-animation overflow-hidden"
+      >
+        <!-- Header do modal -->
+        <div
+          class="flex justify-between items-center px-6 pt-6 pb-4 border-b border-[#383838]"
+        >
+          <div>
+            <h3 class="text-xl font-bold text-amber-50">
+              {{ selectedItem?.name }}
+            </h3>
+          </div>
+          <button
+            @click="closeModal"
+            class="text-[#888] hover:text-amber-200 transition-colors"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           </button>
         </div>
-        <div class="text-[#c1c1c1] mb-4">{{ selectedItem?.description }}</div>
-        <div class="text-amber-200 mb-4">Tecnologias: {{ selectedItem?.tech }}</div>
-        <div class="flex justify-end gap-4">
-          <a v-if="selectedItem?.github !== 'null'" :href="selectedItem?.github" target="_blank" 
-             class="text-primary hover:text-accent">GitHub</a>
-          <a v-if="selectedItem?.demo !== 'null'" :href="selectedItem?.demo" target="_blank" 
-             class="text-primary hover:text-accent">Demo</a>
+
+        <!-- Corpo do modal -->
+        <div class="px-6 py-5 space-y-4">
+          <!-- Descrição -->
+          <p class="text-[#c1c1c1] text-sm leading-relaxed">
+            {{ selectedItem?.description }}
+          </p>
+
+          <!-- O que foi feito -->
+          <div v-if="selectedItem?.bullets?.length">
+            <h4
+              class="text-xs font-semibold text-[#888] uppercase tracking-widest mb-2"
+            >
+              O que foi feito
+            </h4>
+            <ul class="space-y-1">
+              <li
+                v-for="bullet in selectedItem.bullets"
+                :key="bullet"
+                class="flex gap-2 text-sm text-[#c1c1c1]"
+              >
+                <span class="text-amber-400 mt-0.5 flex-shrink-0">▸</span>
+                {{ bullet }}
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tecnologias -->
+          <div v-if="selectedItem?.techList?.length">
+            <h4
+              class="text-xs font-semibold text-[#888] uppercase tracking-widest mb-2"
+            >
+              Tecnologias
+            </h4>
+            <div class="flex flex-wrap gap-2">
+              <span
+                v-for="t in selectedItem.techList"
+                :key="t"
+                class="px-3 py-1 text-xs rounded-full bg-amber-200 bg-opacity-10 text-amber-200 border border-amber-200 border-opacity-20"
+              >
+                {{ t }}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer do modal -->
+        <div class="flex justify-end gap-3 px-6 pb-6">
+          <a
+            v-if="selectedItem?.github !== 'null'"
+            :href="selectedItem?.github"
+            target="_blank"
+            class="flex items-center gap-2 px-4 py-2 text-sm border border-[#383838] rounded-lg text-[#c1c1c1] hover:border-amber-200 hover:text-amber-200 transition-all"
+          >
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              height="14"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+            GitHub
+          </a>
+          <a
+            v-if="selectedItem?.demo !== 'null'"
+            :href="selectedItem?.demo"
+            target="_blank"
+            class="flex items-center gap-2 px-4 py-2 text-sm bg-amber-400 text-black font-semibold rounded-lg hover:bg-amber-300 transition-all"
+          >
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              height="14"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+              ></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            Ver Demo
+          </a>
         </div>
       </div>
     </div>
@@ -188,7 +442,6 @@ svg:hover {
   animation: fadeZoomIn 1s ease-in-out;
 }
 
-/* Animação do modal */
 @keyframes modalFadeIn {
   from {
     opacity: 0;
@@ -201,6 +454,6 @@ svg:hover {
 }
 
 .modal-animation {
-  animation: modalFadeIn 0.3s ease-out;
+  animation: modalFadeIn 0.25s ease-out;
 }
 </style>
