@@ -202,8 +202,9 @@ export default {
           <p
             class="mb-4 fadein-left fadeins-1 text-[#c1c1c1] text-sm md:text-base leading-relaxed"
           >
-            Desenvolvedor Full-Stack com foco no Back-End, com experiência em projetos de alto volume
-            de dados e regras de negócio complexas. Trabalhei na
+            Desenvolvedor Full-Stack com foco no Back-End, com experiência em
+            projetos de alto volume de dados e regras de negócio complexas.
+            Trabalhei na
             <span class="text-amber-200 font-medium">Bear Systems</span>,
             atuando no core de uma plataforma de delivery com sistema de
             carrinho em tempo real via WebSocket e Redis, autenticação JWT +
@@ -270,12 +271,22 @@ export default {
             </div>
             <ul class="text-[#c1c1c1] text-sm space-y-1 mt-3 list-none">
               <li class="flex gap-2">
-                <span class="text-amber-400">▸</span> Foco principal em Back-End, desenvolvendo APIs, regras de negócio e integrações
+                <span class="text-amber-400">▸</span> Foco principal em
+                Back-End, desenvolvendo APIs, regras de negócio e integrações
               </li>
               <li class="flex gap-2">
                 <span class="text-amber-400">▸</span> Core de plataforma de
                 delivery: pedidos, produtos, categorias e empresas com
                 Arquitetura Hexagonal
+              </li>
+              <li class="flex gap-2">
+                <span class="text-amber-400">▸</span> Resolução de gargalo de
+                performance no carrinho de compras: os pedidos sobrecarregavam o
+                banco de dados em picos de uso. Implementei camada de cache com
+                Redis para armazenar os itens do carrinho temporariamente; ao
+                confirmar o pedido, os dados são movidos do Redis para o banco
+                principal. A solução eliminou a sobrecarga, melhorou a latência
+                e evitou a necessidade de upgrade do plano de VPS.
               </li>
               <li class="flex gap-2">
                 <span class="text-amber-400">▸</span> Sistema de carrinho em
@@ -330,6 +341,15 @@ export default {
                 <span class="text-amber-400">▸</span> Correção de bugs em fluxos
                 de requisição de materiais em arquitetura MVC com NestJS e
                 MongoDB
+              </li>
+              <li class="flex gap-2">
+                <span class="text-amber-400">▸</span> Resolução de problema de
+                concorrência na requisição de insumos: dois clientes que
+                clicavam simultaneamente para realizar um pedido recebiam o
+                mesmo código de remessa, causando confusão na entrega. Corrigi
+                implementando transactions e locks no banco de dados, garantindo
+                que pedidos simultâneos gerem códigos únicos e distintos para
+                cada solicitação.
               </li>
               <li class="flex gap-2">
                 <span class="text-amber-400">▸</span> Interfaces de

@@ -26,13 +26,13 @@
         class="flex gap-3 justify-center md:justify-start pt-2 fade-in-from-left"
       >
         <a
-          href="/#/portfolio"
+          href="/portfolio"
           class="px-5 py-2 bg-amber-400 text-black font-semibold rounded-lg text-sm hover:bg-amber-300 transition-all duration-200 hover:scale-105"
         >
           Ver Projetos
         </a>
         <a
-          href="/cv-pdf.pdf"
+          href="/cv-anderson-nunes.pdf"
           download="Anderson_Nunes_CV.pdf"
           class="px-5 py-2 border border-amber-400 text-amber-200 font-semibold rounded-lg text-sm hover:bg-amber-400 hover:bg-opacity-10 transition-all duration-200 hover:scale-105"
         >

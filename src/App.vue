@@ -2,46 +2,70 @@
   <!-- component -->
   <!-- This is an example component -->
   <div class="max-w-7xl mx-auto flex flex-col relative">
-
-    <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80">
-      <div class="container mx-auto flex flex-wrap items-center justify-between">
+    <nav
+      class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80"
+    >
+      <div
+        class="container mx-auto flex flex-wrap items-center justify-between"
+      >
         <button @click="redirectToHome" class="flex">
           <span
-            class="self-center text-lg text-[#ffdb70] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100">devAnderson();</span>
+            class="self-center text-lg text-[#ffdb70] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100"
+            >devAnderson();</span
+          >
         </button>
         <div class="flex md:order-2 fadein-bot">
-          
-          <a href="https://www.linkedin.com/in/devandersonnunes/" target="_blank">
-            <img 
-              class="w-9 rounded-full mr-2" 
-              src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin"
-            >
+          <a
+            href="https://www.linkedin.com/in/devandersonnunes/"
+            target="_blank"
+          >
+            <img
+              class="w-9 rounded-full mr-2"
+              src="https://cdn-icons-png.flaticon.com/128/145/145807.png"
+              alt="linkedin"
+            />
           </a>
-              <a href="mailto:devandersonnunes078@gmail.com">
-                <img 
-                  class="w-9 rounded-full"
-                  src="https://cdn-icons-png.flaticon.com/128/9068/9068642.png" 
-                  alt="email"
-                >
-              </a>
-              
+          <a href="mailto:devandersonnunes078@gmail.com">
+            <img
+              class="w-9 rounded-full"
+              src="https://cdn-icons-png.flaticon.com/128/9068/9068642.png"
+              alt="email"
+            />
+          </a>
         </div>
-        <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
-          <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+        <div
+          class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1"
+          id="mobile-menu-3"
+        >
+          <ul
+            class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium"
+          >
             <li>
-              <router-link to="/"
+              <router-link
+                to="/"
                 class="fadein-bot text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0"
-                aria-current="page">Início</router-link>
+                aria-current="page"
+                >Início</router-link
+              >
             </li>
             <li>
-              <router-link to="/about"
-                class="fadein-bot fadein-1 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0">Sobre</router-link>
+              <router-link
+                to="/about"
+                class="fadein-bot fadein-1 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0"
+                >Sobre</router-link
+              >
             </li>
             <li>
-              <router-link to="/portfolio"
-                class="fadein-bot fadein-2 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0">Portfolio</router-link>
+              <router-link
+                to="/portfolio"
+                class="fadein-bot fadein-2 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0"
+                >Portfolio</router-link
+              >
             </li>
-            
+            <!-- <li>
+              <router-link to="/personal-project"
+                class="fadein-bot fadein-2 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0">Projeto Pessoal</router-link>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -52,12 +76,18 @@
     </div>
   </div>
   <footer
-    class="block md:hidden fixed bottom-0 left-0 right-0 rounded-t-3xl border border-[#383838] bg-[#121212] bg-opacity-80 backdrop-blur-md backdrop-opacity-90">
+    class="block md:hidden fixed bottom-0 left-0 right-0 rounded-t-3xl border border-[#383838] bg-[#121212] bg-opacity-80 backdrop-blur-md backdrop-opacity-90"
+  >
     <nav class="flex justify-around py-4 text-xs">
-      <router-link to="/" class="text-gray-300 hover:text-white">Home</router-link>
-      <router-link to="/about" class="text-gray-300 hover:text-white">About</router-link>
-      <router-link to="/portfolio" class="text-gray-300 hover:text-white">Portfolio</router-link>
-      
+      <router-link to="/" class="text-gray-300 hover:text-white"
+        >Home</router-link
+      >
+      <router-link to="/about" class="text-gray-300 hover:text-white"
+        >About</router-link
+      >
+      <router-link to="/portfolio" class="text-gray-300 hover:text-white"
+        >Portfolio</router-link
+      >
     </nav>
   </footer>
 </template>
@@ -66,10 +96,10 @@
 export default {
   methods: {
     redirectToHome() {
-      this.$router.push('/')
-    }
+      this.$router.push("/");
+    },
   },
-}
+};
 </script>
 
 <style>
@@ -103,7 +133,7 @@ export default {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: hsl(0, 0%, 7%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -142,7 +172,6 @@ nav a.router-link-exact-active::after {
 nav a.router-link-exact-active:hover {
   color: white;
 }
-
 
 @keyframes fadeInLeft {
   0% {
