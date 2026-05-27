@@ -33,7 +33,7 @@ export default {
             "Socket.io",
             "Docker",
           ],
-          github: "https://github.com/AndersonN031/ficha-facil-backend",
+          github: "https://github.com/AndersonN031/ficha-facil-backend/blob/dev/README.md",
           demo: "null",
         },
         {
